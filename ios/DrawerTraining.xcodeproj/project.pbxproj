@@ -16,6 +16,8 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* DrawerTrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DrawerTrainingTests.m */; };
+		42899FBC2559FBF5006D197D /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42899FAB2559FBF4006D197D /* BootSplash.storyboard */; };
+		42899FBD2559FBF5006D197D /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42899FAB2559FBF4006D197D /* BootSplash.storyboard */; };
 		839AF671D16B202AA050CAF4 /* libPods-DrawerTraining.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69203BEDD4694D2ECE30ACF /* libPods-DrawerTraining.a */; };
 		BD5A44F0E66E18DDCC71D6A3 /* libPods-DrawerTrainingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56A216C51E971D68A2B0B7A /* libPods-DrawerTrainingTests.a */; };
 		D39B11D59019A3027077CBAB /* libPods-DrawerTraining-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 656A4FE411E9895914DBF37A /* libPods-DrawerTraining-tvOS.a */; };
@@ -168,6 +170,7 @@
 		2D02E4901E0B4A5D006451C7 /* DrawerTraining-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DrawerTraining-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3435122D7BD16BD3F0B8ECF1 /* Pods-DrawerTraining-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DrawerTraining-tvOS/Pods-DrawerTraining-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		423DF132254B8C8E004739ED /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		42899FAB2559FBF4006D197D /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = DrawerTraining/BootSplash.storyboard; sourceTree = "<group>"; };
 		4D42DCE02C6AB0CD9F728C37 /* Pods-DrawerTrainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTrainingTests.debug.xcconfig"; path = "Target Support Files/Pods-DrawerTrainingTests/Pods-DrawerTrainingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		59974EAC04163ABE8BEC6B7F /* Pods-DrawerTraining-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DrawerTraining-tvOSTests/Pods-DrawerTraining-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6164DCD1C5C37BC9E2A9CF0F /* Pods-DrawerTraining-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DrawerTraining-tvOS/Pods-DrawerTraining-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -256,6 +259,7 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				42899FAB2559FBF4006D197D /* BootSplash.storyboard */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -594,6 +598,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42899FBC2559FBF5006D197D /* BootSplash.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -604,6 +609,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				42899FBD2559FBF5006D197D /* BootSplash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
