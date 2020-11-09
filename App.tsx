@@ -6,16 +6,11 @@
  * @flow
  */
 
-import React, { Fragment, useRef } from 'react';
+import React, { Fragment, useEffect, useRef } from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
   Button,
 } from 'react-native';
+import RNBootSplash from "react-native-bootsplash";
 
 
 import { AppContainer } from '@src/AppContainer';
@@ -37,6 +32,11 @@ const App = () => {
       NavigationActions.navigate({ routeName: "Home" })
     );
   }
+
+  useEffect(() => {
+    RNBootSplash.hide(); // immediate
+    RNBootSplash.hide({ duration: 250 }); // fade
+  }, [])
 
   return (
     <Fragment>
